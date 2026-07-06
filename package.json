@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "node --watch src/app.ts",
     "start": "node dist/app.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
   },
   "dependencies": {
     "express": "^5.2.1"
