@@ -4,4 +4,5 @@ import { productController } from './product.controller.ts';
 const route: Router = express.Router();
 
 route.get('/', productController.productList);
+
 export default route;
